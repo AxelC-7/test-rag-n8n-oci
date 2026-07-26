@@ -1,3 +1,0 @@
-POSTGRES_USER=n8n_user
-POSTGRES_PASSWORD=n8n_super_segura
-POSTGRES_DB=n8n_database
