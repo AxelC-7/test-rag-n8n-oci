@@ -1,0 +1,16 @@
+# Variables privadas
+.env
+
+# Entorno virtual
+.venv/
+
+# Base vectorial generada
+chroma_db/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
