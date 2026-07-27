@@ -1,0 +1,10 @@
+services:
+  botlog:
+    build: .
+    container_name: botlog
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./documentos:/app/documentos
